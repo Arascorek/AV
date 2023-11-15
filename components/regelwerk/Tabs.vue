@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#212121]">
+  <div class="bg-[#212121] px-4 pb-4">
     <div
       class="flex border-b-4 border-b-yellow-500 max-w-2xl mx-auto lg:max-w-4xl 2xl:max-w-5xl"
     >
