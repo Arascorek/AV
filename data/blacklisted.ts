@@ -17,4 +17,5 @@ export const blacklist: Array<string> = [
   'OOC Provokationen, wie "Bist du mad?", "Sauer?" und ähnliche',
   'Auflösung, Auflösen',
   'Stöpseln, Stummen, Ohren zu machen o.ä.',
+  'nowa'
 ];
