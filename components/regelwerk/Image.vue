@@ -1,7 +1,7 @@
 <template>
   <NuxtImg
     src="/image11.png"
-    class="absolute w-full"
+    class="absolute w-full h-full object-cover"
     :style="{ transform: `scale(${currentScale})` }"
   />
 </template>
