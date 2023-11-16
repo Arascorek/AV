@@ -1,5 +1,7 @@
 <template>
-  <div class="">
+  <div class="bg-black">
     <slot />
+
+    <SharedFooter />
   </div>
 </template>
