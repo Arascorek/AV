@@ -1,6 +1,4 @@
 <template>
-  <!-- <NuxtLink to="/regelwerk">Regelwerk click here</NuxtLink>
-  <h1>This is main page</h1> -->
   <div class="bg-[#000000] min-h-screen">
     <NuxtImg
       class="absolute w-full h-[85vh] object-cover brightness-[25%]"
@@ -32,9 +30,9 @@
           linkTo="/regelwerk"
         />
         <HomeCard
-          text="Roleplay Guide"
+          text="Socials"
           imageLink="https://www.gameinformer.com/sites/default/files/styles/full/public/2022/02/08/01a4ca63/gta_v.jpg"
-          linkTo="/regelwerk"
+          linkTo="/socials"
         />
         <HomeCard
           text="Discord"
@@ -56,7 +54,7 @@
           </p>
         </div>
         <NuxtImg
-          class="max-w-sm lg:max-w-md rounded-lg"
+          class="max-w-xs lg:max-w-md rounded-lg"
           src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/b3d17a4e-96bf-11e6-a0d8-00163ed833e7/1317752825/gta-v-how-to-play-grand-theft-auto-v-windows.jpg"
         />
       </div>
@@ -73,7 +71,7 @@
           </p>
         </div>
         <NuxtImg
-          class="max-w-sm lg:max-w-md rounded-lg"
+          class="max-w-xs lg:max-w-md rounded-lg"
           src="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
         />
       </div>
@@ -90,7 +88,7 @@
           </p>
         </div>
         <NuxtImg
-          class="max-w-sm lg:max-w-md rounded-lg"
+          class="max-w-xs lg:max-w-md rounded-lg"
           src="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
         />
       </div>

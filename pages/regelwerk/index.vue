@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div class="lg:pt-20">
     <RegelwerkImage />
-    <div class="px-4 font-roboto pb-10 z-10 relative">
-      This is regelwerk page
+    <div class="px-4 font-roboto pb-10 z-10 relative pt-5">
       <RegelwerkHero />
       <RegelwerkBanner />
     </div>

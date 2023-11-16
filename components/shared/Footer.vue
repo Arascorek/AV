@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="container mx-auto text-white border-t border-gray-300 mt-10 px-4"
+    class="relative z-30 container mx-auto text-white border-t border-gray-300 mt-10 px-4"
   >
     <div
       class="flex flex-col lg:flex-row lg:items-start lg:gap-20 xl:gap-32 2xl:gap-52"
@@ -25,9 +25,7 @@
         <p class="text-gray-100 cursor-pointer hover:text-gray-300">
           Regelwerk
         </p>
-        <p class="text-gray-100 cursor-pointer hover:text-gray-300">
-          Roleplay guide
-        </p>
+        <p class="text-gray-100 cursor-pointer hover:text-gray-300">Socials</p>
       </div>
       <div>
         <p class="font-bold text-3xl mt-5">Social</p>

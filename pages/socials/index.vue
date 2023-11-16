@@ -1,0 +1,103 @@
+<template>
+  <div class="text-white">
+    <h1
+      class="text-center text-4xl mb-10 uppercase font-bold pt-20 lg:pt-32 2xl:text-7xl"
+    >
+      Meet our community!
+    </h1>
+    <div
+      class="bg-transparent z-10 min-h-screen flex gap-5 flex-wrap justify-center items-center container mx-auto"
+    >
+      <SocialsCard
+        name="PlanB"
+        role="Owner"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="123"
+        instagramLink="123"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+      <SocialsCard
+        name="Maciejospng"
+        role="Giga chad"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="123"
+        instagramLink="123"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+      <SocialsCard
+        name="Maciejospng"
+        role="Giga chad"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="123"
+        instagramLink="123"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+      <SocialsCard
+        name="Arascor"
+        role="Slow brain"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="123"
+        instagramLink="123"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+      <SocialsCard
+        name="PlanB"
+        role="Owner"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="123"
+        instagramLink="123"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+      <SocialsCard
+        name="Maciejospng"
+        role="Streamer"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="123"
+        instagramLink="123"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+      <SocialsCard
+        name="Arascor"
+        role="67iq Player"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="123"
+        instagramLink="123"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+      <SocialsCard
+        name="Maciejospng"
+        role="Streamer"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="123"
+        instagramLink="123"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+      <SocialsCard
+        name="Arascor"
+        role="Slow brain"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="123"
+        instagramLink="123"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+    </div>
+  </div>
+</template>
