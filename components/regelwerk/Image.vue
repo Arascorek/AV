@@ -7,8 +7,6 @@
 </template>
 
 <script setup lang="ts">
-import type { transform } from 'typescript';
-
 const scrollPosition = ref(0);
 const currentScale = ref(1);
 const handleScroll = () => {
