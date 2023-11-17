@@ -9,38 +9,38 @@
       class="bg-transparent z-10 min-h-screen flex gap-5 flex-wrap justify-center items-center container mx-auto"
     >
       <SocialsCard
-        name="PlanB"
+        name="Plan B"
         role="Owner"
         image="/owner.png"
-        dcLink="123"
+        dcLink="https://discord.gg/xrcAX5YKJ4"
         twitchLink="123"
         instagramLink="123"
         tiktokLink="123"
         bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
       />
       <SocialsCard
-        name="Maciejospng"
-        role="Giga chad"
+        name="Samed"
+        role="Projektleitung"
         image="/owner.png"
-        dcLink="123"
-        twitchLink="123"
-        instagramLink="123"
-        tiktokLink="123"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
-      />
-      <SocialsCard
-        name="Maciejospng"
-        role="Giga chad"
-        image="/owner.png"
-        dcLink="123"
-        twitchLink="123"
-        instagramLink="123"
-        tiktokLink="123"
+        dcLink="https://discord.com/invite/cCY6ZVyRt7"
+        twitchLink="https://www.twitch.tv/samed_offiziell"
+        instagramLink="https://www.instagram.com/samed_offiziell/"
+        tiktokLink="https://www.tiktok.com/@samed_offiziell"
         bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
       />
       <SocialsCard
         name="Arascor"
-        role="Slow brain"
+        role="Projektleitung"
+        image="/owner.png"
+        dcLink="123"
+        twitchLink="https://www.twitch.tv/arascorek"
+        instagramLink="https://www.instagram.com/pata_by3/"
+        tiktokLink="123"
+        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+      />
+      <SocialsCard
+        name="xxxxxx"
+        role="xxxxx"
         image="/owner.png"
         dcLink="123"
         twitchLink="123"
@@ -49,8 +49,8 @@
         bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
       />
       <SocialsCard
-        name="PlanB"
-        role="Owner"
+        name="xxxxxx"
+        role="xxxxxx"
         image="/owner.png"
         dcLink="123"
         twitchLink="123"
@@ -59,8 +59,8 @@
         bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
       />
       <SocialsCard
-        name="Maciejospng"
-        role="Streamer"
+        name="xxxxxx"
+        role="xxxxxx"
         image="/owner.png"
         dcLink="123"
         twitchLink="123"
@@ -69,8 +69,8 @@
         bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
       />
       <SocialsCard
-        name="Arascor"
-        role="67iq Player"
+        name="xxxxxx"
+        role="xxxxxx"
         image="/owner.png"
         dcLink="123"
         twitchLink="123"
@@ -79,8 +79,8 @@
         bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
       />
       <SocialsCard
-        name="Maciejospng"
-        role="Streamer"
+        name="xxxxxx"
+        role="xxxxxx"
         image="/owner.png"
         dcLink="123"
         twitchLink="123"
@@ -89,8 +89,8 @@
         bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
       />
       <SocialsCard
-        name="Arascor"
-        role="Slow brain"
+        name="xxxxxx"
+        role="xxxxxx"
         image="/owner.png"
         dcLink="123"
         twitchLink="123"

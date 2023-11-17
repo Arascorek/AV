@@ -24,7 +24,7 @@
           Spieler*innen ihre Kreativität ausleben und interagieren können, ohne
           die Rechte und die Sicherheit anderer zu beeinträchtigen. Es
           ermöglicht ein ausgewogenes Miteinander und fördert die Entwicklung
-          von Geschichten und Charakteren auf Classic Roleplay."
+          von Geschichten und Charakteren auf Plan B Roleplay."
         </p>
       </div>
     </div>
