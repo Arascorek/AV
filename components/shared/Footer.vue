@@ -30,9 +30,21 @@
       <div>
         <p class="font-bold text-3xl mt-5">Social</p>
         <div class="flex gap-3 mt-2">
-          <NuxtImg src="/instagram.svg" class="invert w-7 h-7 cursor-pointer" />
-          <NuxtImg src="/discord.svg" class="invert w-7 h-7 cursor-pointer" />
-          <NuxtImg src="/twitch.svg" class="invert w-7 h-7 cursor-pointer" />
+          <NuxtImg
+            src="/instagram.svg"
+            class="invert w-7 h-7 cursor-pointer"
+            alt="icon instagram"
+          />
+          <NuxtImg
+            src="/discord.svg"
+            class="invert w-7 h-7 cursor-pointer"
+            alt="icon discord"
+          />
+          <NuxtImg
+            src="/twitch.svg"
+            class="invert w-7 h-7 cursor-pointer"
+            alt="icon twitch"
+          />
         </div>
       </div>
     </div>

@@ -60,7 +60,7 @@
 const isNavOpen = ref(false);
 const stickNav = ref(false);
 const route = useRoute();
-const routeName = ref<any>('index');
+const routeName = ref<any>(route.name);
 const scrollToBottom = () => {
   isNavOpen.value = false;
   window.scrollTo(0, 99999);

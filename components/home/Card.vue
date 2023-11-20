@@ -15,6 +15,7 @@
         :class="
           isMouseOver ? 'brightness-100 scale-105' : 'brightness-50 scale-100'
         "
+        alt="background image"
       />
     </div>
     <p

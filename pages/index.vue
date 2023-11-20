@@ -3,6 +3,7 @@
     <NuxtImg
       class="absolute w-full h-[85vh] object-cover brightness-[25%]"
       src="https://cdn.mos.cms.futurecdn.net/aDp3J8JC4dYFDxqpbCikVL-1200-80.jpg"
+      alt="background image"
     />
     <div class="px-4 container mx-auto relative z-20 text-white">
       <div class="max-w-lg pt-20 lg:pt-24 2xl:pt-32">
@@ -22,7 +23,7 @@
         <HomeCard
           text="Philosophie"
           imageLink="https://images.hindustantimes.com/tech/img/2023/03/06/960x540/gta_v_1678076345536_1678076352712_1678076352712.png"
-          linkTo="/test"
+          linkTo="/philosophie"
         />
         <HomeCard
           text="Regelwerk"
@@ -53,9 +54,10 @@
             cumque hic?
           </p>
         </div>
-        <NuxtImg
+        <LazyNuxtImg
           class="max-w-xs lg:max-w-md rounded-lg"
           src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/b3d17a4e-96bf-11e6-a0d8-00163ed833e7/1317752825/gta-v-how-to-play-grand-theft-auto-v-windows.jpg"
+          alt="background image"
         />
       </div>
       <div
@@ -70,9 +72,10 @@
             cumque hic?
           </p>
         </div>
-        <NuxtImg
+        <LazyNuxtImg
           class="max-w-xs lg:max-w-md rounded-lg"
           src="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+          alt="background image"
         />
       </div>
       <div
@@ -87,9 +90,10 @@
             cumque hic?
           </p>
         </div>
-        <NuxtImg
+        <LazyNuxtImg
           class="max-w-xs lg:max-w-md rounded-lg"
           src="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+          alt="background image"
         />
       </div>
     </div>
