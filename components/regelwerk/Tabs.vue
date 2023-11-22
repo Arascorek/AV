@@ -4,7 +4,7 @@
       class="flex border-b-4 border-b-yellow-500 max-w-2xl mx-auto lg:max-w-4xl 2xl:max-w-5xl"
     >
       <RegelwerkTab
-        v-for="item in items"
+        v-for="item in regelwerkRules"
         :key="item.label"
         :text="item.label"
         @updateLabel="updateLabel"
@@ -12,21 +12,23 @@
       />
     </div>
     <RegelwerkTabText
-      :text="items[currentTabIndex].content"
-      :title="items[currentTabIndex].label"
+      :text="regelwerkRules[currentTabIndex].content"
+      :title="regelwerkRules[currentTabIndex].label"
       :currentTabIndex="currentTabIndex + 1"
     />
   </div>
 </template>
 
 <script setup lang="ts">
-import { items } from '../../data/regulamin';
+import { regelwerkRules } from '../../data/regulamin';
 
 const currentTab = ref<string>('Allgemeines');
 const currentTabIndex = ref<number>(0);
 
 const updateLabel = (newValue: string) => {
   currentTab.value = newValue;
-  currentTabIndex.value = items.findIndex((e) => e.label === currentTab.value);
+  currentTabIndex.value = regelwerkRules.findIndex(
+    (e) => e.label === currentTab.value
+  );
 };
 </script>

@@ -3,101 +3,34 @@
     <h1
       class="text-center text-4xl mb-10 uppercase font-bold pt-20 lg:pt-32 2xl:text-7xl"
     >
-      Meet our community!
+      {{ socialsMainData.title }}
     </h1>
     <div
       class="bg-transparent z-10 min-h-screen flex gap-5 flex-wrap justify-center items-center container mx-auto"
     >
       <SocialsCard
-        name="Plan B"
-        role="Owner"
-        image="/owner.png"
-        dcLink="https://discord.gg/xrcAX5YKJ4"
-        twitchLink="123"
-        instagramLink="123"
-        tiktokLink="123"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
-      />
-      <SocialsCard
-        name="Samed"
-        role="Projektleitung"
-        image="/owner.png"
-        dcLink="https://discord.com/invite/cCY6ZVyRt7"
-        twitchLink="https://www.twitch.tv/samed_offiziell"
-        instagramLink="https://www.instagram.com/samed_offiziell/"
-        tiktokLink="https://www.tiktok.com/@samed_offiziell"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
-      />
-      <SocialsCard
-        name="Arascor"
-        role="Projektleitung"
-        image="/owner.png"
-        dcLink="123"
-        twitchLink="https://www.twitch.tv/arascorek"
-        instagramLink="https://www.instagram.com/pata_by3/"
-        tiktokLink="123"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
-      />
-      <SocialsCard
-        name="xxxxxx"
-        role="xxxxx"
-        image="/owner.png"
-        dcLink="123"
-        twitchLink="123"
-        instagramLink="123"
-        tiktokLink="123"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
-      />
-      <SocialsCard
-        name="xxxxxx"
-        role="xxxxxx"
-        image="/owner.png"
-        dcLink="123"
-        twitchLink="123"
-        instagramLink="123"
-        tiktokLink="123"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
-      />
-      <SocialsCard
-        name="xxxxxx"
-        role="xxxxxx"
-        image="/owner.png"
-        dcLink="123"
-        twitchLink="123"
-        instagramLink="123"
-        tiktokLink="123"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
-      />
-      <SocialsCard
-        name="xxxxxx"
-        role="xxxxxx"
-        image="/owner.png"
-        dcLink="123"
-        twitchLink="123"
-        instagramLink="123"
-        tiktokLink="123"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
-      />
-      <SocialsCard
-        name="xxxxxx"
-        role="xxxxxx"
-        image="/owner.png"
-        dcLink="123"
-        twitchLink="123"
-        instagramLink="123"
-        tiktokLink="123"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
-      />
-      <SocialsCard
-        name="xxxxxx"
-        role="xxxxxx"
-        image="/owner.png"
-        dcLink="123"
-        twitchLink="123"
-        instagramLink="123"
-        tiktokLink="123"
-        bgImage="https://media-rockstargames-com.akamaized.net/tina-uploads/posts/ak73k92o47ko75/5de9d8bc4ffeabb209ec67ab3721ea281da5cd05.jpg"
+        v-for="social in socialsData"
+        :key="social.name"
+        :name="social.name"
+        :role="social.role"
+        :image="social.image"
+        :dcLink="social.dcLink"
+        :twitchLink="social.twitchLink"
+        :instagramLink="social.instagramLink"
+        :tiktokLink="social.tiktokLink"
+        :bgImage="social.bgImage"
       />
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+import { socialsMainData, socialsData } from '~/data/socials';
+import { pageTitle, pageKeyWords } from '~/data/main';
+useSeoMeta({
+  title: pageTitle.socials,
+});
+useHead({
+  meta: [{ name: 'keywords', content: pageKeyWords.socials }],
+});
+</script>

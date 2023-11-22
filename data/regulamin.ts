@@ -2,7 +2,27 @@ interface Item {
   label: string;
   content: Array<string>;
 }
-export const items: Array<Item> = [
+
+
+export const mainRegelwerkData = {
+  mainImage: '/image2.png',
+  name: 'Samed & Arascor',
+  authorImage:
+    'https://images.pexels.com/photos/10155098/pexels-photo-10155098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+  role: 'Projektleitung',
+  title: 'Philosophie',
+  titleDesc:
+    '"Eine gute Philosophie für unseren Server macht nicht nur die Fairness und Gleichbehandlung für jede/n Spieler*in aus, sondern auch die Beteiligung der Community, Feedback und Transparenz. Wir legen viel Wert auf neue Ideen und Visionen, im Einklang mit unseren Richtlinien und Regeln."',
+  bannerWhiteText: 'Server- und Community-Philosophie:',
+  bannerYellowText: 'Gemeinsam auf Abenteuerreise',
+  rulesIntroText:
+    'Willkommen in der Welt von Plan B, wo die Realität nur der Anfang ist. Unser Ziel ist es, eine lebendige und aktive Community aufzubauen, die sich voll und ganz dem hochwertigen Roleplay verschrieben hat. Hier ist Raum für Entfaltung, Kreativität und die unendlichen Möglichkeiten des Rollenspiels.',
+  rulesEndText:
+    'Willkommen bei Plan B Roleplay, wo deine Geschichte geschrieben wird und das Abenteuer niemals endet.',
+};
+
+
+export const regelwerkRules: Array<Item> = [
   {
     label: 'Allgemeines',
     content: [
