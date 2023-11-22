@@ -1,12 +1,14 @@
 <template>
   <NuxtImg
-    src="/image11.png"
+    :src="mainRegelwerkData.mainImage"
     class="absolute w-full h-full object-cover"
+    alt="background image"
     :style="{ transform: `scale(${currentScale})` }"
   />
 </template>
 
 <script setup lang="ts">
+import { mainRegelwerkData } from '~/data/regulamin';
 const scrollPosition = ref(0);
 const currentScale = ref(1);
 const handleScroll = () => {

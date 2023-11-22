@@ -7,9 +7,12 @@
     >
       <div>
         <p class="font-bold text-3xl mt-5">Kontakt</p>
-        <p class="text-gray-100 cursor-pointer hover:text-gray-300 mt-2">
-          info@info.com
-        </p>
+        <a
+          :href="'mailto:' + footerData.contactMail"
+          class="text-gray-100 cursor-pointer hover:text-gray-300 mt-2"
+        >
+          {{ footerData.contactMail }}</a
+        >
         <p class="text-gray-100 cursor-pointer hover:text-gray-300">
           Datenschutz
         </p>
@@ -19,42 +22,61 @@
       </div>
       <div>
         <p class="font-bold text-3xl mt-5">Navigation</p>
-        <p class="text-gray-100 cursor-pointer hover:text-gray-300 mt-2">
+        <NuxtLink
+          to="/philosophie"
+          class="text-gray-100 cursor-pointer block hover:text-gray-300 mt-2"
+        >
           Philosophie
-        </p>
-        <p class="text-gray-100 cursor-pointer hover:text-gray-300">
+        </NuxtLink>
+        <NuxtLink
+          to="/regelwerk"
+          class="text-gray-100 cursor-pointer block hover:text-gray-300"
+        >
           Regelwerk
-        </p>
-        <p class="text-gray-100 cursor-pointer hover:text-gray-300">Socials</p>
+        </NuxtLink>
+        <NuxtLink
+          to="/socials"
+          class="text-gray-100 cursor-pointer block hover:text-gray-300"
+          >Socials</NuxtLink
+        >
       </div>
       <div>
         <p class="font-bold text-3xl mt-5">Social</p>
         <div class="flex gap-3 mt-2">
-          <NuxtImg
-            src="/instagram.svg"
-            class="invert w-7 h-7 cursor-pointer"
-            alt="icon instagram"
-          />
-          <NuxtImg
-            src="/discord.svg"
-            class="invert w-7 h-7 cursor-pointer"
-            alt="icon discord"
-          />
-          <NuxtImg
-            src="/twitch.svg"
-            class="invert w-7 h-7 cursor-pointer"
-            alt="icon twitch"
-          />
+          <NuxtLink :to="footerData.igLink" target="_blank">
+            <NuxtImg
+              src="/instagram.svg"
+              class="invert w-7 h-7 cursor-pointer"
+              alt="icon instagram"
+            />
+          </NuxtLink>
+          <NuxtLink :to="footerData.dcLink" target="_blank">
+            <NuxtImg
+              src="/discord.svg"
+              class="invert w-7 h-7 cursor-pointer"
+              alt="icon discord"
+            />
+          </NuxtLink>
+          <NuxtLink :to="footerData.twLink" target="_blank">
+            <NuxtImg
+              src="/twitch.svg"
+              class="invert w-7 h-7 cursor-pointer"
+              alt="icon twitch"
+            />
+          </NuxtLink>
         </div>
       </div>
     </div>
 
     <div class="mt-10 pb-4">
       <p class="text-center">
-        All rights reserved &copy; 2023 | PlanB Roleplay
+        Alle Rechte vorbehalten &copy; {{ currentYear }} | PlanB Roleplay
       </p>
     </div>
   </footer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const currentYear = ref(new Date().getFullYear());
+import { footerData } from '~/data/footer';
+</script>

@@ -2,7 +2,27 @@ interface Item {
   label: string;
   content: Array<string>;
 }
-export const items: Array<Item> = [
+
+
+export const mainRegelwerkData = {
+  mainImage: 'https://cdn.discordapp.com/attachments/713792897446707220/1176942104887435388/tuunnel_compressed_1.png?ex=6570b3c0&is=655e3ec0&hm=eeb0d584f41991a2a39799f93bc5033bf8226c22facbf77e9d9ea761e1b97d6c&',
+  name: 'Samed & Arascor',
+  authorImage:
+    '/owner.png',
+  role: 'Projektleitung',
+  title: 'Regelwerk',
+  titleDesc:
+    '"Insgesamt dient ein Regelwerk dazu, ein positives und einladendes Umfeld für Rollenspiel-Communitys zu schaffen, in dem die Spieler*innen ihre Kreativität ausleben und interagieren können, ohne die Rechte und die Sicherheit anderer zu beeinträchtigen. Es ermöglicht ein ausgewogenes Miteinander und fördert die Entwicklung von Geschichten und Charakteren auf Plan B Roleplay."',
+  bannerWhiteText: 'Regelwerk:',
+  bannerYellowText: 'Grundlage für ein gutes Miteinander',
+  rulesIntroText:
+    '',
+  rulesEndText:
+    '',
+};
+
+
+export const regelwerkRules: Array<Item> = [
   {
     label: 'Allgemeines',
     content: [

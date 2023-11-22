@@ -19,7 +19,7 @@
       />
     </div>
     <p
-      class="text-center text-5xl uppercase font-bold relative z-20 text-white transition cursor-default"
+      class="text-center text-5xl uppercase font-bold relative z-20 text-white transition cursor-default lg:text-3xl xl:text-5xl"
       :class="isMouseOver ? '-translate-y-10' : ''"
     >
       {{ props.text }}

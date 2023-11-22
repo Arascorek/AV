@@ -28,6 +28,15 @@
           Start
         </p>
       </NuxtLink>
+      <NuxtLink to="/philosophie">
+        <p
+          class="cursor-pointer hover:text-yellow-500 transition"
+          @click="isNavOpen = false"
+          :class="routeName === 'philosophie' && 'text-yellow-500'"
+        >
+          Philosophie
+        </p>
+      </NuxtLink>
       <NuxtLink to="/regelwerk">
         <p
           class="cursor-pointer hover:text-yellow-500 transition"

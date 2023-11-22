@@ -20,18 +20,18 @@
       </div>
     </div>
     <div>
-      <p class="text-3xl relative z-50 pb-2 font-bold lg:text-4xl">Socials</p>
+      <p class="text-3xl relative z-30 pb-2 font-bold lg:text-4xl">Socials</p>
       <div class="flex gap-5 mt-5">
-        <NuxtLink :to="props.dcLink">
+        <NuxtLink :to="props.dcLink" target="_blank">
           <NuxtImg src="/discord.svg" class="w-10 h-10 invert" />
         </NuxtLink>
-        <NuxtLink :to="props.twitchLink">
+        <NuxtLink :to="props.twitchLink" target="_blank">
           <NuxtImg src="/twitch.svg" class="w-10 h-10 invert" />
         </NuxtLink>
-        <NuxtLink :to="props.instagramLink">
+        <NuxtLink :to="props.instagramLink" target="_blank">
           <NuxtImg src="/instagram.svg" class="w-10 h-10 invert" />
         </NuxtLink>
-        <NuxtLink :to="props.tiktokLink">
+        <NuxtLink :to="props.tiktokLink" target="_blank">
           <NuxtImg src="/tiktok.svg" class="w-10 h-10 invert" />
         </NuxtLink>
       </div>
