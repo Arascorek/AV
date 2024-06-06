@@ -3,7 +3,7 @@
   <div>
     <h1>Poland Virtual Tour</h1>
     <p>Explore our virtual tour of Poland.</p>
-    <img src="path/to/Poland-tour-image.jpg" alt="Poland Tour">
+    <img src="/images/poland-tour-image.jpg" alt="Poland Tour">
     <p>Content for the Poland virtual tour...</p>
   </div>
 </template>
