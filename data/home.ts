@@ -1,6 +1,6 @@
 //First big title and description
 export const homeData = {
-  title: 'PlanB Roleplay',
+  title: 'Arascor Vision',
   titleDescription:
     'Starte dein Leben in der verzauberten Welt von Plan B. Die Stadt von wahren Roleplay. Komm aus dir heraus und beschreite dein Weg, als Krimineller oder als vorbildlichen Bürger. Zudem sind wir Anfängerfreundlich. Jeder Spieler ist willkommen, ob Pro oder Neuling.',
   mainImage:
