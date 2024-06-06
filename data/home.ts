@@ -11,13 +11,13 @@ export const homeData = {
 // Change only image url in each object
 export const homeCardsMain = [
   {
-    text: 'Philosophie',
+    text: 'Philosophy',
     image:
       'https://images.hindustantimes.com/tech/img/2023/03/06/960x540/gta_v_1678076345536_1678076352712_1678076352712.png',
     linkTo: '/philosophie',
   },
   {
-    text: 'Regelwerk',
+    text: 'Projects',
     image:
       'https://webprojektor.pl/wp-content/uploads/2023/02/official-screenshot-pc-700x394.jpg',
     linkTo: '/regelwerk',
@@ -29,7 +29,7 @@ export const homeCardsMain = [
     linkTo: '/socials',
   },
   {
-    text: 'Discord',
+    text: 'Socialss',
     image:
       'https://www.pockettactics.com/wp-content/sites/pockettactics/2023/02/gta-v-mobile-1-550x309.jpg',
     linkTo: '/socials',
