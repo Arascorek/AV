@@ -1,4 +1,3 @@
-
 <template>
   <nav class="bg-gray-900 text-white p-4">
     <ul class="flex space-x-4">
@@ -13,7 +12,7 @@
 </template>
 
 <script setup>
-import { NuxtLink } from 'nuxt/app';
+import { NuxtLink } from '#components';
 </script>
 
 <style scoped>
