@@ -25,7 +25,7 @@
       {{ props.text }}
     </p>
     <SharedButton
-      text="Clicke Hier!"
+      text="Go To!"
       :linkTo="props.linkTo"
       class="absolute z-20 left-1/2 -translate-x-1/2 bottom-5 transition"
       :class="isMouseOver ? 'opacity-100' : 'opacity-0'"
