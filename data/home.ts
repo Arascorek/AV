@@ -2,10 +2,10 @@
 export const homeData = {
   title: 'Arascor Vision',
   titleDescription:
-    'Starte dein Leben in der verzauberten Welt von Plan B. Die Stadt von wahren Roleplay. Komm aus dir heraus und beschreite dein Weg, als Krimineller oder als vorbildlichen Bürger. Zudem sind wir Anfängerfreundlich. Jeder Spieler ist willkommen, ob Pro oder Neuling.',
+    'Elevating Business Marketing through Virtual Tours. We specialize in creating immersive virtual experiences and innovative marketing solutions for enterprises.',
   mainImage:
     'https://storage.cloud.google.com/arascor_vision/FINALOOOOOOOO.png?authuser=1',
-  mainButtonText: 'Erkunde die Welt!',
+  mainButtonText: 'Meet Us!',
 };
 
 // Change only image url in each object
@@ -14,13 +14,13 @@ export const homeCardsMain = [
     text: 'Philosophy',
     image:
       'https://images.hindustantimes.com/tech/img/2023/03/06/960x540/gta_v_1678076345536_1678076352712_1678076352712.png',
-    linkTo: '/philosophie',
+    linkTo: '/philosophy',
   },
   {
     text: 'Projects',
     image:
       'https://webprojektor.pl/wp-content/uploads/2023/02/official-screenshot-pc-700x394.jpg',
-    linkTo: '/regelwerk',
+    linkTo: '/projects',
   },
   {
     text: 'Socials',

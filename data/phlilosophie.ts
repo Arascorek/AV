@@ -1,10 +1,10 @@
 export const mainPhilosophieData = {
-  mainImage: 'https://i.redd.it/nduksi52zrs41.jpg',
-  name: 'Samed & Arascor',
+  mainImage: 'https://storage.cloud.google.com/arascor_vision/LOGOPNGG.png?authuser=1',
+  name: 'Patryk Hamann',
   authorImage:
     '/owner.png',
-  role: 'Projektleitung',
-  title: 'Philosophie',
+  role: 'CEO',
+  title: 'Philosophy',
   titleDesc:
     '"Willkommen in der Welt von Plan B, wo die Realität nur der Anfang ist. Unser Ziel ist es, eine lebendige und aktive Community aufzubauen, die sich voll und ganz dem hochwertigen Roleplay verschrieben hat. Hier ist Raum für Entfaltung, Kreativität und die unendlichen Möglichkeiten des Rollenspiels."',
   bannerWhiteText: 'Server- und Community-Philosophie:',

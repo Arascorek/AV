@@ -1,22 +1,22 @@
 export const pageTitle = {
-  start: 'Plan B | Roleplay',
-  philosophie: 'Plan B | Philosophie',
-  regelwerk: 'Plan B | Regelwerk',
-  socials: 'Plan B | Socials',
+  start: 'Arascor Vision',
+  philosophie: 'Arascor Vision | Philosophie',
+  regelwerk: 'Arascor Vision | Regelwerk',
+  socials: 'Arascor Vision | Socials',
 };
 
 export const mainMetaTags = {
-  title: 'Plan B | Roleplay',
-  ogTitle: 'Plan B | Roleplay',
-  description: 'Ein deutscher GTA V Roleplay Server, von Community für Community!',
-  ogDescription: 'Ein deutscher GTA V Roleplay Server, von Community für Community!',
+  title: 'Arascor Vision',
+  ogTitle: 'Arascor Vision',
+  description: 'Elevating Business Marketing through Virtual Tours',
+  ogDescription: 'Elevating Business Marketing through Virtual Tours',
   ogImage: 'link to image',
-  keywords: 'gtav, rp, roleplay, planb, plan, b, server, home, page',
+  keywords: 'arascor, vision, virtual, tour, marketing, business, home, page',
 };
 
 export const pageKeyWords = {
-  start: 'gtav, rp, roleplay, planb, plan, b, server, home, page',
-  philosophie: 'gtav, rp, roleplay, planb, plan, b, server, home, philosophie',
-  regelwerk: 'gtav, rp, roleplay, planb, plan, b, server, home, regelwerk',
-  socials: 'gtav, rp, roleplay, planb, plan, b, server, home, socials',
+  start: 'arascor, vision, virtual, tour, marketing, business, home, page',
+  philosophie: 'arascor, vision, virtual, tour, marketing, business, home, philosophie',
+  regelwerk: 'arascor, vision, virtual, tour, marketing, business, home, regelwerk',
+  socials: 'arascor, vision, virtual, tour, marketing, business, home, socials',
 };
