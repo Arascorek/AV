@@ -28,11 +28,11 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const name = ref('');
-const email = ref('');
-const message = ref('');
+export const name = ref('');
+export const email = ref('');
+export const message = ref('');
 
-const submitForm = () => {
+export const submitForm = () => {
   const mailtoLink = `mailto:arascorgpt@googlemail.com?subject=Contact%20Form&body=Name:%20${name.value}%0AEmail:%20${email.value}%0AMessage:%20${message.value}`;
   window.location.href = mailtoLink;
 };
