@@ -1,31 +1,31 @@
 <template>
   <div class="min-h-[calc(100vh-257px)] relative">
     <NuxtImg
-      :src="mainPhilosophieData.mainImage"
+      :src="mainPhilosophyData.mainImage"
       class="w-full h-[70vh] object-cover"
     />
     <SharedHero
-      :name="mainPhilosophieData.name"
-      :title="mainPhilosophieData.role"
-      :desc-title="mainPhilosophieData.title"
-      :desc="mainPhilosophieData.titleDesc"
-      :image="mainPhilosophieData.authorImage"
+      :name="mainPhilosophyData.name"
+      :title="mainPhilosophyData.role"
+      :desc-title="mainPhilosophyData.title"
+      :desc="mainPhilosophyData.titleDesc"
+      :image="mainPhilosophyData.authorImage"
       class="absolute top-24 left-0 mx-4 lg:left-20 lg:mx-0"
     />
 
     <SharedBanner
-      :title="mainPhilosophieData.bannerWhiteText"
-      :desc="mainPhilosophieData.bannerYellowText"
+      :title="mainPhilosophyData.bannerWhiteText"
+      :desc="mainPhilosophyData.bannerYellowText"
       class="mt-24 lg:-mt-32"
     />
     <div class="mt-10 container mx-auto px-2">
       <p class="text-white">
-        {{ mainPhilosophieData.rulesIntroText }}
+        {{ mainPhilosophyData.rulesIntroText }}
       </p>
 
       <div class="my-10">
         <p
-          v-for="(element, idx) in philosophieData"
+          v-for="(element, idx) in philosophyData"
           key="idx"
           class="text-white my-4 max-w-7xl"
         >
@@ -38,21 +38,21 @@
       </div>
 
       <p class="text-white">
-        {{ mainPhilosophieData.rulesEndText }}
+        {{ mainPhilosophyData.rulesEndText }}
       </p>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { philosophieData, mainPhilosophieData } from '../../data/phlilosophy';
-import { pageTitle, pageKeyWords } from '~/data/main';
+import { philosophyData, mainPhilosophyData } from '../../data/phlilosophy';
+import { pageTitle, pageKeyWords } from '~/data/';
 useSeoMeta({
-  title: pageTitle.philosophie,
+  title: pageTitle.philosophy,
 });
 
 useHead({
-  meta: [{name: 'keywords', content: pageKeyWords.philosophie}]
+  meta: [{name: 'keywords', content: pageKeyWords.philosophy}]
 })
 </script>
 

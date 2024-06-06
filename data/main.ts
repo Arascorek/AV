@@ -1,6 +1,6 @@
 export const pageTitle = {
   start: 'Arascor Vision',
-  philosophie: 'Arascor Vision | Philosophy',
+  philosophy: 'Arascor Vision | Philosophy',
   regelwerk: 'Arascor Vision | Projects',
   socials: 'Arascor Vision | Socials',
 };
