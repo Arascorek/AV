@@ -4,7 +4,7 @@ export const homeData = {
   titleDescription:
     'Starte dein Leben in der verzauberten Welt von Plan B. Die Stadt von wahren Roleplay. Komm aus dir heraus und beschreite dein Weg, als Krimineller oder als vorbildlichen Bürger. Zudem sind wir Anfängerfreundlich. Jeder Spieler ist willkommen, ob Pro oder Neuling.',
   mainImage:
-    'https://cdn.mos.cms.futurecdn.net/aDp3J8JC4dYFDxqpbCikVL-1200-80.jpg',
+    'https://storage.cloud.google.com/arascor_vision/FINALOOOOOOOO.png?authuser=1',
   mainButtonText: 'Erkunde die Welt!',
 };
 
