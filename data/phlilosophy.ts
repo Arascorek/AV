@@ -1,4 +1,4 @@
-export const mainPhilosophieData = {
+export const mainPhilosophyData = {
   mainImage: 'https://storage.cloud.google.com/arascor_vision/LOGOPNGG.png?authuser=1',
   name: 'Patryk Hamann',
   authorImage:
@@ -15,7 +15,7 @@ export const mainPhilosophieData = {
     'Willkommen bei Plan B Roleplay, wo deine Geschichte geschrieben wird und das Abenteuer niemals endet.',
 };
 
-export const philosophieData = [
+export const philosophyData = [
   'Gemeinschaft und Aktivität: Wir streben danach, eine lebendige und blühende Community zu schaffen, die sich durch hohe Aktivität und gemeinsames Interesse am Roleplay auszeichnet. Jeder ist willkommen, sich unserer vielfältigen Familie anzuschließen.',
   'Qualitatives Roleplay: Bei Plan B Roleplay steht die Qualität des Roleplays im Mittelpunkt. Wir ermutigen unsere Mitglieder dazu, auf höchstem Niveau zu spielen und durch immersive Geschichten und Charaktere eine einzigartige Spielerfahrung zu schaffen.',
   'Charakterentfaltung: In unserer Welt gibt es keine Grenzen für die Charakterentwicklung. Entdecke die Tiefen deiner Figur, gestalte ihre Geschichte und beeinflusse die Welt um dich herum. Das Abenteuer beginnt bei dir.',

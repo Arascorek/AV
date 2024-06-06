@@ -1,7 +1,7 @@
 export const pageTitle = {
   start: 'Arascor Vision',
-  philosophie: 'Arascor Vision | Philosophie',
-  regelwerk: 'Arascor Vision | Regelwerk',
+  philosophie: 'Arascor Vision | Philosophy',
+  regelwerk: 'Arascor Vision | Projects',
   socials: 'Arascor Vision | Socials',
 };
 
@@ -16,7 +16,7 @@ export const mainMetaTags = {
 
 export const pageKeyWords = {
   start: 'arascor, vision, virtual, tour, marketing, business, home, page',
-  philosophie: 'arascor, vision, virtual, tour, marketing, business, home, philosophie',
-  regelwerk: 'arascor, vision, virtual, tour, marketing, business, home, regelwerk',
+  philosophy: 'arascor, vision, virtual, tour, marketing, business, home, philosophy',
+  regelwerk: 'arascor, vision, virtual, tour, marketing, business, home, projects',
   socials: 'arascor, vision, virtual, tour, marketing, business, home, socials',
 };

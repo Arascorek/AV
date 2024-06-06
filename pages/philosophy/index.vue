@@ -45,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-import { philosophieData, mainPhilosophieData } from '../../data/phlilosophie';
+import { philosophieData, mainPhilosophieData } from '../../data/phlilosophy';
 import { pageTitle, pageKeyWords } from '~/data/main';
 useSeoMeta({
   title: pageTitle.philosophie,
