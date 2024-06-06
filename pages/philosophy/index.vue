@@ -26,13 +26,12 @@
       <div class="my-10">
         <p
           v-for="(element, idx) in philosophyData"
-          key="idx"
+          :key="idx"
           class="text-white my-4 max-w-7xl"
         >
-          <span class="text-yellow-500"
-            >{{ idx + 1 }}.
-            {{ element.slice(0, element.indexOf(':') + 1) }}</span
-          >
+          <span class="text-yellow-500">
+            {{ idx + 1 }}. {{ element.slice(0, element.indexOf(':') + 1) }}
+          </span>
           {{ element.slice(element.indexOf(':') + 1) }}
         </p>
       </div>
@@ -46,14 +45,15 @@
 
 <script setup lang="ts">
 import { philosophyData, mainPhilosophyData } from '../../data/phlilosophy';
-import { pageTitle, pageKeyWords } from '~/data/';
-useSeoMeta({
-  title: pageTitle.philosophy,
-});
+import { pageTitle, pageKeyWords } from '../../data/main';
+import { useHead } from 'nuxt/app';
 
 useHead({
-  meta: [{name: 'keywords', content: pageKeyWords.philosophy}]
-})
+  title: pageTitle.philosophy,
+  meta: [
+    { name: 'keywords', content: pageKeyWords.philosophy }
+  ]
+});
 </script>
 
 <style scoped></style>
