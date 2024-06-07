@@ -48,11 +48,11 @@
 import { contactusData, maincontactusData } from '../../data/contactus';
 import { pageTitle, pageKeyWords } from '../../data/main';
 useSeoMeta({
-  title: pageTitle.philosophy,
+  title: pageTitle.contactus,
 });
 
 useHead({
-  meta: [{name: 'keywords', content: pageKeyWords.philosophy}]
+  meta: [{name: 'keywords', content: pageKeyWords.contactus}]
 })
 </script>
 
