@@ -29,10 +29,10 @@ export const homeCardsMain = [
     linkTo: '/socials',
   },
   {
-    text: 'Socialss',
+    text: 'Contact Us',
     image:
       'https://www.pockettactics.com/wp-content/sites/pockettactics/2023/02/gta-v-mobile-1-550x309.jpg',
-    linkTo: '/socials',
+    linkTo: '/contactus',
   },
 ];
 
