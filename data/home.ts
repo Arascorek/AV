@@ -39,7 +39,7 @@ export const homeCardsMain = [
 //Card texts and images
 export const homeCard = [
   {
-    title: 'Expertise in Virtual Tours',
+    title: 'Expertise in VT Virtual-Tours',
     desc: 'Our team creates immersive and interactive virtual tours that captivate audiences and showcase your business in the best light. Perfect for industries like real estate, hospitality, and education, our tours help you stand out and engage potential customers.',
     image:
       'https://i.ytimg.com/vi/qEE3d_y5hYI/maxresdefault.jpg',
@@ -51,7 +51,7 @@ export const homeCard = [
       'https://img.gta5-mods.com/q75/images/improved-vanilla-lspd-male-cops-los-santos-police-department/5829a5-20191212014832_1.jpg',
   },
   {
-    title: 'High-Quality Content Creation',
+    title: 'High-Quality Content-Creation',
     desc: 'Our skilled team of writers, designers, and videographers produce compelling content that resonates with your target audience. We create engaging materials that tell your brand’s story and elevate your online presence, helping you connect with customers on a deeper level.',
     image:
       'https://i.ytimg.com/vi/9TF6DxJFQ7s/maxresdefault.jpg',

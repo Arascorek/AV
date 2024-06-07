@@ -70,7 +70,7 @@
 
     <div class="mt-10 pb-4">
       <p class="text-center">
-        Alle Rechte vorbehalten &copy; {{ currentYear }} | PlanB Roleplay
+        All rights reserved &copy; {{ currentYear }} | Arascor Vision
       </p>
     </div>
   </footer>
