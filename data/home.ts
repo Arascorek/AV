@@ -19,7 +19,7 @@ export const homeCardsMain = [
   {
     text: 'Projects',
     image:
-      'https://webprojektor.pl/wp-content/uploads/2023/02/official-screenshot-pc-700x394.jpg',
+      'https://storage.cloud.google.com/arascor_vision/projectss.png?authuser=1',
     linkTo: '/projects',
   },
   {
