@@ -48,11 +48,11 @@
 import { philosophieData, mainPhilosophieData } from '../../data/phlilosophie';
 import { pageTitle, pageKeyWords } from '~/data/main';
 useSeoMeta({
-  title: pageTitle.philosophie,
+  title: pageTitle.services,
 });
 
 useHead({
-  meta: [{name: 'keywords', content: pageKeyWords.philosophie}]
+  meta: [{name: 'keywords', content: pageKeyWords.services}]
 })
 </script>
 
