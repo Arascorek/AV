@@ -1,31 +1,31 @@
 <template>
   <div class="min-h-[calc(100vh-257px)] relative">
     <NuxtImg
-      :src="mainPhilosophieData.mainImage"
+      :src="maincontactusData.mainImage"
       class="w-full h-[70vh] object-cover"
     />
     <SharedHero
-      :name="mainPhilosophieData.name"
-      :title="mainPhilosophieData.role"
-      :desc-title="mainPhilosophieData.title"
-      :desc="mainPhilosophieData.titleDesc"
-      :image="mainPhilosophieData.authorImage"
+      :name="maincontactusData.name"
+      :title="maincontactusData.role"
+      :desc-title="maincontactusData.title"
+      :desc="maincontactusData.titleDesc"
+      :image="maincontactusData.authorImage"
       class="absolute top-24 left-0 mx-4 lg:left-20 lg:mx-0"
     />
 
     <SharedBanner
-      :title="mainPhilosophieData.bannerWhiteText"
-      :desc="mainPhilosophieData.bannerYellowText"
+      :title="maincontactusData.bannerWhiteText"
+      :desc="maincontactusData.bannerYellowText"
       class="mt-24 lg:-mt-32"
     />
     <div class="mt-10 container mx-auto px-2">
       <p class="text-white">
-        {{ mainPhilosophieData.rulesIntroText }}
+        {{ maincontactusData.rulesIntroText }}
       </p>
 
       <div class="my-10">
         <p
-          v-for="(element, idx) in philosophieData"
+          v-for="(element, idx) in contactusData"
           key="idx"
           class="text-white my-4 max-w-7xl"
         >
@@ -38,15 +38,15 @@
       </div>
 
       <p class="text-white">
-        {{ mainPhilosophieData.rulesEndText }}
+        {{ maincontactusData.rulesEndText }}
       </p>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { philosophieData, mainPhilosophieData } from '../../data/phlilosophie';
-import { pageTitle, pageKeyWords } from '~/data/main';
+import { contactusData, maincontactusData } from '../../data/contactus';
+import { pageTitle, pageKeyWords } from '../../data/main';
 useSeoMeta({
   title: pageTitle.philosophy,
 });
