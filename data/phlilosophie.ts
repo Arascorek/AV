@@ -1,10 +1,10 @@
 export const mainPhilosophieData = {
   mainImage: 'https://i.redd.it/nduksi52zrs41.jpg',
-  name: 'Samed & Arascor',
+  name: 'Patryk Hamann',
   authorImage:
     '/owner.png',
   role: 'Projektleitung',
-  title: 'Philosophie',
+  title: 'Service',
   titleDesc:
     '"At Arascor Vision, we specialize in delivering top-notch virtual tours and comprehensive marketing solutions tailored to meet the unique needs of businesses across various industries. Our services are designed to enhance your brand’s presence and engage your audience effectively.',
   bannerWhiteText: 'Services',
