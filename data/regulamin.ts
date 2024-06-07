@@ -24,7 +24,7 @@ export const mainRegelwerkData = {
 
 export const regelwerkRules: Array<Item> = [
   {
-    label: 'Allgemeines',
+    label: 'Poland',
     content: [
       'Unser Roleplay beruht auf Fair Play und geht über das Regelwerk hinaus. Der Support hat jederzeit die Möglichkeit, sämtliches unfaires Verhalten zu sanktionieren.',
       'Der generelle Echtgeldhandel mit Spielgegenständen ist untersagt.',
@@ -40,7 +40,7 @@ export const regelwerkRules: Array<Item> = [
     ],
   },
   {
-    label: 'Roleplay',
+    label: 'Germany',
     content: [
       'Das Leben ist unser höchstes Gut und muss unter allen Umständen geschützt werden. Wenn einem eine Waffe an den Kopf gehalten wird, ist es diesem nicht gestattet, selber eine Waffe zu ziehen und sein Gegenüber zu erschießen.',
       'Vehicle Deathmatch (VDM) Das sinnlose Anfahren, Überfahren und Angreifen mit Fahrzeugen ist verboten. Das Töten mit Fahrzeugen ist generell untersagt.',
@@ -68,7 +68,7 @@ export const regelwerkRules: Array<Item> = [
     ],
   },
   {
-    label: 'Fraktion',
+    label: 'Dubai',
     content: [
       'Eine Bad-Fraktion darf aus maximal 15 männlichen + 3 weiblichen Personen bestehen.',
       'Blood Out Regelung Beim Blood Out muss der Betroffene alle Informationen und die Zeit in der Gruppierung vergessen. Genauso muss sichergestellt werden, dass alle Mitglieder der Gruppierung vom Blood Out wissen. Nach einem Blood Out kann man nicht wieder in dieselbe Fraktion eintreten. Diese Regel gilt ausnahmslos (auch bei einem Chartod)!',
@@ -89,7 +89,7 @@ export const regelwerkRules: Array<Item> = [
     ],
   },
   {
-    label: 'Sonstiges',
+    label: 'Croatia',
     content: [
       'Es ist verboten und wird sanktioniert, wenn extreme Beleidigungen, sexistische, diskriminierende und rassistische Äußerungen gemacht werden oder wenn Familienmitglieder oder Tote beleidigt werden. Sexuelle Belästigungen, Vergewaltigungen und Rassismus sind ebenfalls strengstens untersagt. Es ist verboten, Spieler über Discord zu rekrutieren oder abzuwerben, die Rekrutierung muss IC stattfinden. OOC-Interaktionen (insbesondere über Discord) können mit einem permanenten Ausschluss bestraft werden.',
       'Grundsätzlich möchten wir hier nochmals erwähnen, dass wir keine Beleidigungen gegenüber Spieler*innen tolerieren, da diese meist verletzend und unangebracht sind. Die folgende Auflistung soll nur zur Darstellung dienen, um aufzuzeigen worauf wir speziell achten und wir beleidigen hiermit niemanden speziell, sondern möchten vorbeugen. ',
