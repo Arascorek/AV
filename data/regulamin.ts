@@ -5,7 +5,7 @@ interface Item {
 
 
 export const mainRegelwerkData = {
-  mainImage: 'https://storage.cloud.google.com/arascor_vision/vtview.png?authuser=1',
+  mainImage: 'https://storage.googleapis.com/arascor_vision/servicepagehome.png',
   name: 'Patryk Hamann',
   authorImage:
     '/owner.png',
