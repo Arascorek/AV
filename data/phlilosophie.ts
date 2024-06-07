@@ -7,8 +7,8 @@ export const mainPhilosophieData = {
   title: 'Philosophie',
   titleDesc:
     '"At Arascor Vision, we specialize in delivering top-notch virtual tours and comprehensive marketing solutions tailored to meet the unique needs of businesses across various industries. Our services are designed to enhance your brand’s presence and engage your audience effectively.',
-  bannerWhiteText: 'Services:',
-  bannerYellowText: 'Our services are designed to enhance your brand’s presence and engage your audience effectively',
+  bannerWhiteText: 'Services',
+  bannerYellowText: 'are designed to enhance your brand’s presence and engage your audience effectively',
   rulesIntroText:
     '',
   rulesEndText:

@@ -11,10 +11,10 @@ export const homeData = {
 // Change only image url in each object
 export const homeCardsMain = [
   {
-    text: 'Philosophy',
+    text: 'Services',
     image:
       'https://images.hindustantimes.com/tech/img/2023/03/06/960x540/gta_v_1678076345536_1678076352712_1678076352712.png',
-    linkTo: '/philosophy',
+    linkTo: '/services',
   },
   {
     text: 'Projects',
@@ -39,20 +39,20 @@ export const homeCardsMain = [
 //Card texts and images
 export const homeCard = [
   {
-    title: 'Bad Fraktion',
-    desc: 'Bei Plan B kannst du den Weg als Bad Fraktion beschreiten. Als Gang, Kartell, Mafia o.ä. Kommt aus euch heraus und zeigt der Stadt aus welchen Holz ihr Geschnitzt seit.',
+    title: 'Expertise in Virtual Tours',
+    desc: 'Our team creates immersive and interactive virtual tours that captivate audiences and showcase your business in the best light. Perfect for industries like real estate, hospitality, and education, our tours help you stand out and engage potential customers.',
     image:
       'https://i.ytimg.com/vi/qEE3d_y5hYI/maxresdefault.jpg',
   },
   {
-    title: 'Staatsfraktion',
-    desc: 'Bei Plan B kannst du den Weg als Staatsfraktion beschreiten. Werde ein Teil der Stadt. Versorge die Bürger oder beschütze die Bürger. Lass die Stadt von dir profitieren.',
+    title: 'Comprehensive Marketing Strategies',
+    desc: 'We develop tailored marketing strategies that align with your business goals. From digital marketing campaigns to brand development, our holistic approach ensures your marketing efforts are cohesive and effective, driving growth and brand recognition.',
     image:
       'https://img.gta5-mods.com/q75/images/improved-vanilla-lspd-male-cops-los-santos-police-department/5829a5-20191212014832_1.jpg',
   },
   {
-    title: 'Zivi Leben',
-    desc: 'Bei Plan B kannst du den Weg als Zivilist beschreiten. Entdecke dein eigenen Roleplay Charakter, mit deiner eigener Art, die du gerne ausspielen möchtest. Zeig der Plan B Community was du drauf hast.',
+    title: 'High-Quality Content Creation',
+    desc: 'Our skilled team of writers, designers, and videographers produce compelling content that resonates with your target audience. We create engaging materials that tell your brand’s story and elevate your online presence, helping you connect with customers on a deeper level.',
     image:
       'https://i.ytimg.com/vi/9TF6DxJFQ7s/maxresdefault.jpg',
   },
