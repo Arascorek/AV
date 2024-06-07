@@ -13,7 +13,7 @@ export const homeCardsMain = [
   {
     text: 'Services',
     image:
-      'https://images.hindustantimes.com/tech/img/2023/03/06/960x540/gta_v_1678076345536_1678076352712_1678076352712.png',
+      'https://storage.cloud.google.com/arascor_vision/servicee.png?authuser=1',
     linkTo: '/services',
   },
   {
