@@ -1,31 +1,31 @@
 <template>
   <div class="min-h-[calc(100vh-257px)] relative">
     <NuxtImg
-      :src="maincontactusData.mainImage"
+      :src="mainPhilosophieData.mainImage"
       class="w-full h-[70vh] object-cover"
     />
     <SharedHero
-      :name="maincontactusData.name"
-      :title="maincontactusData.role"
-      :desc-title="maincontactusData.title"
-      :desc="maincontactusData.titleDesc"
-      :image="maincontactusData.authorImage"
+      :name="mainPhilosophieData.name"
+      :title="mainPhilosophieData.role"
+      :desc-title="mainPhilosophieData.title"
+      :desc="mainPhilosophieData.titleDesc"
+      :image="mainPhilosophieData.authorImage"
       class="absolute top-24 left-0 mx-4 lg:left-20 lg:mx-0"
     />
 
     <SharedBanner
-      :title="maincontactusData.bannerWhiteText"
-      :desc="maincontactusData.bannerYellowText"
+      :title="mainPhilosophieData.bannerWhiteText"
+      :desc="mainPhilosophieData.bannerYellowText"
       class="mt-24 lg:-mt-32"
     />
     <div class="mt-10 container mx-auto px-2">
       <p class="text-white">
-        {{ maincontactusData.rulesIntroText }}
+        {{ mainPhilosophieData.rulesIntroText }}
       </p>
 
       <div class="my-10">
         <p
-          v-for="(element, idx) in contactusData"
+          v-for="(element, idx) in philosophieData"
           key="idx"
           class="text-white my-4 max-w-7xl"
         >
@@ -38,21 +38,21 @@
       </div>
 
       <p class="text-white">
-        {{ maincontactusData.rulesEndText }}
+        {{ mainPhilosophieData.rulesEndText }}
       </p>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { contactusData, maincontactusData } from '../../data/contactus';
+import { philosophieData, mainPhilosophieData } from '../../data/phlilosophie';
 import { pageTitle, pageKeyWords } from '~/data/main';
 useSeoMeta({
-  title: pageTitle.contactus,
+  title: pageTitle.philosophy,
 });
 
 useHead({
-  meta: [{name: 'keywords', content: pageKeyWords.contactus}]
+  meta: [{name: 'keywords', content: pageKeyWords.philosophy}]
 })
 </script>
 
