@@ -6,7 +6,7 @@
       class="flex flex-col lg:flex-row lg:items-start lg:gap-20 xl:gap-32 2xl:gap-52"
     >
       <div>
-        <p class="font-bold text-3xl mt-5">Kontakt</p>
+        <p class="font-bold text-3xl mt-5">Contact</p>
         <a
           :href="'mailto:' + footerData.contactMail"
           class="text-gray-100 cursor-pointer hover:text-gray-300 mt-2"
@@ -14,19 +14,19 @@
           {{ footerData.contactMail }}</a
         >
         <p class="text-gray-100 cursor-pointer hover:text-gray-300">
-          Datenschutz
+          Tel. +48 732 904 320
         </p>
         <p class="text-gray-100 cursor-pointer hover:text-gray-300">
-          Impressum
+          Tel. +49 155 100 85 405
         </p>
       </div>
       <div>
         <p class="font-bold text-3xl mt-5">Navigation</p>
         <NuxtLink
-          to="/philosophie"
+          to="/services"
           class="text-gray-100 cursor-pointer block hover:text-gray-300 mt-2"
         >
-          Philosophie
+          Services
         </NuxtLink>
         <NuxtLink
           to="/regelwerk"
