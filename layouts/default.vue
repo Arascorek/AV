@@ -9,8 +9,8 @@
 </template>
 
 <script setup lang="ts">
-import SharedNav from '~/components/SharedNav.vue';
-import SharedFooter from '~/components/SharedFooter.vue';
+import SharedNav from '~/components/shared/Nav.vue';
+import SharedFooter from '~/components/shared/Footer.vue';
 import { mainMetaTags } from '../data/main';
 
 useSeoMeta({
