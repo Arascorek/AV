@@ -25,25 +25,25 @@
           @click="isNavOpen = false"
           :class="routeName === 'index' && 'text-yellow-500'"
         >
-          Start
+          Home
         </p>
       </NuxtLink>
-      <NuxtLink to="/philosophie">
+      <NuxtLink to="/services">
         <p
           class="cursor-pointer hover:text-yellow-500 transition"
           @click="isNavOpen = false"
           :class="routeName === 'philosophie' && 'text-yellow-500'"
         >
-          Philosophie
+          Service
         </p>
       </NuxtLink>
-      <NuxtLink to="/regelwerk">
+      <NuxtLink to="/projects">
         <p
           class="cursor-pointer hover:text-yellow-500 transition"
           @click="isNavOpen = false"
           :class="routeName === 'regelwerk' && 'text-yellow-500'"
         >
-          Regelwerk
+          Projects
         </p>
       </NuxtLink>
       <NuxtLink to="/socials">

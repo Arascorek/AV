@@ -26,13 +26,13 @@
           to="/services"
           class="text-gray-100 cursor-pointer block hover:text-gray-300 mt-2"
         >
-          Services
+          Service
         </NuxtLink>
         <NuxtLink
-          to="/regelwerk"
+          to="/projects"
           class="text-gray-100 cursor-pointer block hover:text-gray-300"
         >
-          Regelwerk
+          Projects
         </NuxtLink>
         <NuxtLink
           to="/socials"
