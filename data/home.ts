@@ -1,6 +1,6 @@
 //First big title and description
 export const homeData = {
-  title: 'Arascor Vision',
+  title: 'Welcome To Arascor Vision',
   titleDescription:
     'Elevating Business Marketing through Virtual Tours. We specialize in creating immersive virtual experiences and innovative marketing solutions for enterprises.',
   mainImage:
