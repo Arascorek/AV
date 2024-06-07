@@ -55,6 +55,7 @@
           Socials
         </p>
       </NuxtLink>
+      <NuxtLink to="/contactus">
       <p
         class="cursor-pointer hover:text-yellow-500 transition"
         @click="isNavOpen = false"
@@ -62,6 +63,7 @@
       >
         Contact us
       </p>
+    </NuxtLink>
     </div>
   </nav>
 </template>
