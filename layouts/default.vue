@@ -9,6 +9,8 @@
 </template>
 
 <script setup lang="ts">
+import SharedNav from '~/components/SharedNav.vue';
+import SharedFooter from '~/components/SharedFooter.vue';
 import { mainMetaTags } from '../data/main';
 
 useSeoMeta({
@@ -21,7 +23,7 @@ useSeoMeta({
 
 useHead({
   htmlAttrs: {
-    lang: 'de',
+    lang: 'en',  // Dodanie wartości dla lang
   },
   meta: [
     {
