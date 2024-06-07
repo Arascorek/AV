@@ -4,7 +4,7 @@ export const homeData = {
   titleDescription:
     'Elevating Business Marketing through Virtual Tours. We specialize in creating immersive virtual experiences and innovative marketing solutions for enterprises.',
   mainImage:
-    'https://storage.cloud.google.com/arascor_vision/officework.png?authuser=1',
+    'https://storage.cloud.google.com/arascor_vision/officevieww.png?authuser=1',
   mainButtonText: 'Meet Us!',
 };
 
