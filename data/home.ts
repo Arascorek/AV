@@ -25,7 +25,7 @@ export const homeCardsMain = [
   {
     text: 'Socials',
     image:
-      'https://storage.cloud.google.com/arascor_vision/socials.png?authuser=1',
+      'https://storage.cloud.google.com/arascor_vision/socialss.png?authuser=1',
     linkTo: '/socials',
   },
   {
