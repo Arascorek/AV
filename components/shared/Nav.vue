@@ -54,12 +54,14 @@
         >
           Socials
         </p>
-      </NuxtLink>
-      <p
-        class="cursor-pointer hover:text-yellow-500 transition"
-        @click="scrollToBottom"
-      >
-        Info
+      <NuxtLink to="/">
+        <p
+          class="cursor-pointer hover:text-yellow-500 transition"
+          @click="isNavOpen = false"
+          :class="routeName === 'contactus' && 'text-yellow-500'"
+        >
+          Contact us
+        </p>
       </p>
     </div>
   </nav>
