@@ -25,13 +25,13 @@ export const homeCardsMain = [
   {
     text: 'Socials',
     image:
-      'https://www.gameinformer.com/sites/default/files/styles/full/public/2022/02/08/01a4ca63/gta_v.jpg',
+      'https://storage.cloud.google.com/arascor_vision/socials.png?authuser=1',
     linkTo: '/socials',
   },
   {
     text: 'Contact Us',
     image:
-      'https://www.pockettactics.com/wp-content/sites/pockettactics/2023/02/gta-v-mobile-1-550x309.jpg',
+      'https://storage.cloud.google.com/arascor_vision/contactuss.png?authuser=1',
     linkTo: '/contactus',
   },
 ];
