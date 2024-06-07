@@ -4,7 +4,7 @@ export const homeData = {
   titleDescription:
     'Elevating Business Marketing through Virtual Tours. We specialize in creating immersive virtual experiences and innovative marketing solutions for enterprises.',
   mainImage:
-    'https://storage.cloud.google.com/arascor_vision/FINALOOOOOOOO.png?authuser=1',
+    'https://storage.cloud.google.com/arascor_vision/officework.png?authuser=1',
   mainButtonText: 'Meet Us!',
 };
 
@@ -42,18 +42,18 @@ export const homeCard = [
     title: 'Expertise in VT Virtual-Tours',
     desc: 'Our team creates immersive and interactive virtual tours that captivate audiences and showcase your business in the best light. Perfect for industries like real estate, hospitality, and education, our tours help you stand out and engage potential customers.',
     image:
-      'https://i.ytimg.com/vi/qEE3d_y5hYI/maxresdefault.jpg',
+      'https://storage.cloud.google.com/arascor_vision/vtwork.png?authuser=1',
   },
   {
     title: 'Comprehensive Marketing Strategies',
     desc: 'We develop tailored marketing strategies that align with your business goals. From digital marketing campaigns to brand development, our holistic approach ensures your marketing efforts are cohesive and effective, driving growth and brand recognition.',
     image:
-      'https://img.gta5-mods.com/q75/images/improved-vanilla-lspd-male-cops-los-santos-police-department/5829a5-20191212014832_1.jpg',
+      'https://storage.cloud.google.com/arascor_vision/marketing.png?authuser=1',
   },
   {
     title: 'High-Quality Content-Creation',
     desc: 'Our skilled team of writers, designers, and videographers produce compelling content that resonates with your target audience. We create engaging materials that tell your brand’s story and elevate your online presence, helping you connect with customers on a deeper level.',
     image:
-      'https://i.ytimg.com/vi/9TF6DxJFQ7s/maxresdefault.jpg',
+      'https://storage.cloud.google.com/arascor_vision/content.png?authuser=1',
   },
 ];
