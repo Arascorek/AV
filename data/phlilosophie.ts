@@ -1,5 +1,5 @@
 export const mainPhilosophieData = {
-  mainImage: 'https://storage.googleapis.com/arascor_vision/servicehomepage.png',
+  mainImage: 'https://storage.googleapis.com/arascor_vision/servhome.png',
   name: 'Patryk Hamann',
   authorImage:
     '/owner.png',
