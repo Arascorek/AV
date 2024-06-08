@@ -4,7 +4,7 @@ export const homeData = {
   titleDescription:
     'Elevating Business Marketing through Virtual Tours. We specialize in creating immersive virtual experiences and innovative marketing solutions for enterprises.',
   mainImage:
-    'https://storage.cloud.google.com/arascor_vision/officevieww.png?authuser=1',
+    'https://storage.googleapis.com/arascor_vision/officevieww.png',
   mainButtonText: 'Meet Us!',
 };
 
@@ -13,25 +13,25 @@ export const homeCardsMain = [
   {
     text: 'Services',
     image:
-      'https://storage.cloud.google.com/arascor_vision/servicee.png?authuser=1',
+      'https://storage.googleapis.com/arascor_vision/servicee.png',
     linkTo: '/services',
   },
   {
     text: 'Projects',
     image:
-      'https://storage.cloud.google.com/arascor_vision/projectss.png?authuser=1',
+      'https://storage.googleapis.com/arascor_vision/projectss.png',
     linkTo: '/projects',
   },
   {
     text: 'Socials',
     image:
-      'https://storage.cloud.google.com/arascor_vision/socialss.png?authuser=1',
+      'https://storage.googleapis.com/arascor_vision/socialss.png',
     linkTo: '/socials',
   },
   {
     text: 'Contact Us',
     image:
-      'https://storage.cloud.google.com/arascor_vision/contactuss.png?authuser=1',
+      'https://storage.googleapis.com/arascor_vision/contactuss.png',
     linkTo: '/contactus',
   },
 ];
@@ -42,18 +42,18 @@ export const homeCard = [
     title: 'Expertise in VT Virtual-Tours',
     desc: 'Our team creates immersive and interactive virtual tours that captivate audiences and showcase your business in the best light. Perfect for industries like real estate, hospitality, and education, our tours help you stand out and engage potential customers.',
     image:
-      'https://storage.cloud.google.com/arascor_vision/vtwork.png?authuser=1',
+      'https://storage.googleapis.com/arascor_vision/vtview.png',
   },
   {
     title: 'Comprehensive Marketing Strategies',
     desc: 'We develop tailored marketing strategies that align with your business goals. From digital marketing campaigns to brand development, our holistic approach ensures your marketing efforts are cohesive and effective, driving growth and brand recognition.',
     image:
-      'https://storage.cloud.google.com/arascor_vision/marketing.png?authuser=1',
+      'https://storage.googleapis.com/arascor_vision/marketing.png',
   },
   {
     title: 'High-Quality Content-Creation',
     desc: 'Our skilled team of writers, designers, and videographers produce compelling content that resonates with your target audience. We create engaging materials that tell your brand’s story and elevate your online presence, helping you connect with customers on a deeper level.',
     image:
-      'https://storage.cloud.google.com/arascor_vision/content.png?authuser=1',
+      'https://storage.googleapis.com/arascor_vision/content.png',
   },
 ];
