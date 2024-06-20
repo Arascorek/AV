@@ -1,4 +1,4 @@
-import { defineNuxtConfig } from 'nuxt3';
+import { defineNuxtConfig } from "nuxt/config";
 
 export default defineNuxtConfig({
   // Twoja konfiguracja Nuxt.js tutaj
