@@ -24,11 +24,12 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.scss'],
   build: {
-    loaders: {
-      scss: {
-        implementation: require('sass')
-      }
-    }
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
   },
   plugins: ['~/plugins/i18n.js']
 });
