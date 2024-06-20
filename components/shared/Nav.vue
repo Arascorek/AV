@@ -56,14 +56,24 @@
         </p>
       </NuxtLink>
       <NuxtLink to="/contactus">
-      <p
-        class="cursor-pointer hover:text-yellow-500 transition"
-        @click="isNavOpen = false"
-        :class="routeName === 'contactus' && 'text-yellow-500'"
-      >
-        Contact us
-      </p>
-    </NuxtLink>
+        <p
+          class="cursor-pointer hover:text-yellow-500 transition"
+          @click="isNavOpen = false"
+          :class="routeName === 'contactus' && 'text-yellow-500'"
+        >
+          Contact us
+        </p>
+      </NuxtLink>
+      <li class="language-switcher">
+        <button @click="showFlags = !showFlags">
+          <img :src="currentFlag" alt="current flag" class="flag-icon"/>
+        </button>
+        <div v-if="showFlags" class="flags">
+          <img src="/flags/en.png" alt="English" @click="changeLocale('en')" class="flag-icon"/>
+          <img src="/flags/pl.png" alt="Polski" @click="changeLocale('pl')" class="flag-icon"/>
+          <img src="/flags/de.png" alt="Deutsch" @click="changeLocale('de')" class="flag-icon"/>
+        </div>
+      </li>
     </div>
   </nav>
 </template>
@@ -74,12 +84,23 @@ import { useRoute } from 'vue-router';
 
 const isNavOpen = ref(false);
 const stickNav = ref(false);
+const showFlags = ref(false);
 const route = useRoute();
 const routeName = ref<any>(route.name);
-const scrollToBottom = () => {
-  isNavOpen.value = false;
-  window.scrollTo(0, 99999);
+
+const currentFlag = computed(() => {
+  switch (i18n.global.locale) {
+    case 'pl': return '/flags/pl.png';
+    case 'de': return '/flags/de.png';
+    default: return '/flags/en.png';
+  }
+});
+
+const changeLocale = (locale: string) => {
+  i18n.global.locale = locale;
+  showFlags.value = false;
 };
+
 onMounted(() => {
   window.addEventListener('scroll', () => {
     stickNav.value = window.scrollY > 0;
@@ -93,4 +114,44 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  margin: 0 1rem;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.language-switcher {
+  position: relative;
+}
+.flags {
+  position: absolute;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.flag-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  margin: 0.5rem;
+}
+</style>

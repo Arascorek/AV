@@ -1,0 +1,32 @@
+{
+    "homeData": {
+      "title": "Willkommen auf unserer Website",
+      "titleDescription": "Entdecken Sie unsere erstaunlichen Dienstleistungen und Projekte.",
+      "mainButtonText": "Erfahren Sie mehr"
+    },
+    "homeCardsMain": [
+      {
+        "text": "Unsere Dienstleistungen",
+        "image": "/images/service.jpg",
+        "linkTo": "/services"
+      },
+      {
+        "text": "Unsere Projekte",
+        "image": "/images/projects.jpg",
+        "linkTo": "/projects"
+      }
+    ],
+    "homeCard": [
+      {
+        "title": "Professionelle Dienstleistungen",
+        "desc": "Wir bieten erstklassige Dienstleistungen für unsere Kunden.",
+        "image": "/images/service1.jpg"
+      },
+      {
+        "title": "Innovative Projekte",
+        "desc": "Unsere Projekte sind innovativ und zukunftsorientiert.",
+        "image": "/images/project1.jpg"
+      }
+    ]
+  }
+  
