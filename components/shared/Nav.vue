@@ -25,7 +25,7 @@
           @click="isNavOpen = false"
           :class="routeName === 'index' && 'text-yellow-500'"
         >
-          Home
+          Homee
         </p>
       </NuxtLink>
       <NuxtLink to="/services">
