@@ -1,3 +1,4 @@
+import { defineNuxtConfig } from 'nuxt3';
 
 export default defineNuxtConfig({
   modules: [
@@ -13,21 +14,15 @@ export default defineNuxtConfig({
       { code: 'de', name: 'Deutsch', iso: 'de-DE', file: 'de.json' }
     ],
     lazy: true,
-    langDir: 'lang/',
-    defaultLocale: 'en',
+    langDir: 'lang',
+    defaultLocale: 'en'
   },
   googleFonts: {
     families: {
       Oswald: true,
-    },
+    }
   },
   css: ['~/assets/css/main.scss'],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
   build: {
     loaders: {
       scss: {
@@ -36,4 +31,4 @@ export default defineNuxtConfig({
     }
   },
   plugins: ['~/plugins/i18n.js']
-})
+});
