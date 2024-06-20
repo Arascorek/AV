@@ -81,6 +81,7 @@
 <script setup lang="ts">
 import { onMounted, ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
+import i18n from '~/plugins/i18n';
 
 const isNavOpen = ref(false);
 const stickNav = ref(false);
