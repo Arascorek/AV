@@ -1,31 +1,35 @@
 {
     "homeData": {
-      "title": "Witamy na naszej stronie",
-      "titleDescription": "Odkryj nasze niesamowite usługi i projekty.",
-      "mainButtonText": "Dowiedz się więcej"
+      "title": "Witamy w Arascor Vision",
+      "titleDescription": "Podnoszenie marketingu biznesowego poprzez wirtualne wycieczki. Specjalizujemy się w tworzeniu immersyjnych wirtualnych doświadczeń i innowacyjnych rozwiązań marketingowych dla przedsiębiorstw.",
+      "mainButtonText": "Poznaj Nas!"
     },
     "homeCardsMain": [
       {
-        "text": "Nasze Usługi",
-        "image": "/images/service.jpg",
-        "linkTo": "/services"
+        "text": "Usługi"
       },
       {
-        "text": "Nasze Projekty",
-        "image": "/images/projects.jpg",
-        "linkTo": "/projects"
+        "text": "Projekty"
+      },
+      {
+        "text": "Socials"
+      },
+      {
+        "text": "Skontaktuj się z nami"
       }
     ],
     "homeCard": [
       {
-        "title": "Profesjonalne Usługi",
-        "desc": "Świadczymy najwyższej jakości usługi dla naszych klientów.",
-        "image": "/images/service1.jpg"
+        "title": "Ekspertyza w VT Virtual-Tours",
+        "desc": "Nasz zespół tworzy immersyjne i interaktywne wirtualne wycieczki, które przyciągają uwagę i prezentują Twoją firmę w najlepszym świetle. Idealne dla branż takich jak nieruchomości, hotelarstwo i edukacja, nasze wycieczki pomagają wyróżnić się i zaangażować potencjalnych klientów."
       },
       {
-        "title": "Innowacyjne Projekty",
-        "desc": "Nasze projekty są innowacyjne i przyszłościowe.",
-        "image": "/images/project1.jpg"
+        "title": "Kompleksowe Strategie Marketingowe",
+        "desc": "Opracowujemy dopasowane strategie marketingowe, które są zgodne z celami Twojej firmy. Od kampanii marketingowych cyfrowych po rozwój marki, nasze holistyczne podejście zapewnia, że Twoje wysiłki marketingowe są spójne i skuteczne, przyczyniając się do wzrostu i rozpoznawalności marki."
+      },
+      {
+        "title": "Tworzenie Wysokiej Jakości Treści",
+        "desc": "Nasz wykwalifikowany zespół pisarzy, projektantów i wideografów tworzy atrakcyjne treści, które rezonują z Twoją docelową grupą odbiorców. Tworzymy angażujące materiały, które opowiadają historię Twojej marki i podnoszą Twoją obecność online, pomagając Ci nawiązać głębszą więź z klientami."
       }
     ]
   }

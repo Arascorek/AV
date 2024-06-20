@@ -7,12 +7,12 @@
     />
     <div class="px-4 container mx-auto relative z-20 text-white">
       <div class="max-w-lg pt-20 lg:pt-24 2xl:pt-32">
-        <h1 class="text-5xl lg:text-6xl 2xl:text-7xl">{{ homeData.title }}</h1>
+        <h1 class="text-5xl lg:text-6xl 2xl:text-7xl">{{ $t('homeData.title') }}</h1>
         <p class="text-md mt-2 mb-10 2xl:text-lg">
-          {{ homeData.titleDescription }}
+          {{ $t('homeData.titleDescription') }}
         </p>
         <SharedButton
-          :text="homeData.mainButtonText"
+          :text="$t('homeData.mainButtonText')"
           @click="handleScrollWindow"
         />
       </div>
@@ -23,7 +23,7 @@
         <HomeCard
           v-for="card in homeCardsMain"
           :key="card.image"
-          :text="card.text"
+          :text="$t(card.text)"
           :imageLink="card.image"
           :linkTo="card.linkTo"
         />
@@ -36,9 +36,9 @@
         :class="idx % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'"
       >
         <div class="max-w-xl text-center lg:text-left">
-          <h1 class="text-5xl lg:text-6xl 2xl:text-7xl">{{ card.title }}</h1>
+          <h1 class="text-5xl lg:text-6xl 2xl:text-7xl">{{ $t(card.title) }}</h1>
           <p class="max-w-sm text-md mt-2 mb-10 lg:max-w-lg 2xl:text-lg">
-            {{ card.desc }}
+            {{ $t(card.desc) }}
           </p>
         </div>
         <NuxtImg
