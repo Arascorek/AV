@@ -1,16 +1,20 @@
 <template>
-  <SharedNav />
-  <div class="bg-black">
-    <main>
-      <slot />
-    </main>
-    <SharedFooter />
+  <div>
+    <SharedNav />
+    <LanguageSwitcher />
+    <div class="bg-black">
+      <main>
+        <slot />
+      </main>
+      <SharedFooter />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import SharedNav from '~/components/shared/Nav.vue';
 import SharedFooter from '~/components/shared/Footer.vue';
+import LanguageSwitcher from '~/components/LanguageSwitcher.vue';
 import { mainMetaTags } from '../data/main';
 
 useSeoMeta({
@@ -23,7 +27,7 @@ useSeoMeta({
 
 useHead({
   htmlAttrs: {
-    lang: 'en',  // Dodanie wartości dla lang
+    lang: 'en',
   },
   meta: [
     {
