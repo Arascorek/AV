@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="7.0.12" apprev="20035" start="node1">
+  <panorama id="node1">
+    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelingpitch="0" width="1680" levelbias="0.400" leveltilesize="510" height="1680" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1680" preload="0" height="1680" predecode="0"/>
+      <level width="840" preload="0" height="840" predecode="0"/>
+      <level width="420" preload="1" height="420" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="108.17" projection="4" tilt="-1.74" pan="-138.78"/>
+      <flyin fov="100" projection="4" tilt="1.18" pan="-134.87"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata description="" tags="Pobierowo Villa Mare" comment="" latitude="54.055072" datetime="22/06/2024 11:32" nodeid="node1" heading="0" source="" altitude="53.50" copyright="" longitude="14.926494" info="" author="" title="Wjazd" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" backgroundcolor="0xffffff" width="180" height="20" backgroundalpha="1" wordwrap="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" id="Point01" distance="3.05244" skinid="ht_node" target="" tilt="-5.47" url="{node2}" pan="-125.91" title="Wejscie Glowne"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomfov="40" zoomoutpause="1" type="irisround" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control sensitivity="8" rubberband="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" zoomcentercursor="1" hideabout="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelingpitch="0" width="1680" levelbias="0.400" leveltilesize="510" height="1680" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1680" preload="0" height="1680" predecode="0"/>
+      <level width="840" preload="0" height="840" predecode="0"/>
+      <level width="420" preload="1" height="420" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="100" projection="4" tilt="-2.4" pan="-169.17"/>
+      <flyin fov="128.7" projection="4" tilt="-2.13" pan="-172.69"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata description="" tags="Pobierowo Villa Mare" comment="" latitude="54.055056" datetime="22/06/2024 11:32" nodeid="node2" heading="0" source="" altitude="53.40" copyright="" longitude="14.926456" info="" author="" title="Wejscie Glowne" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" backgroundcolor="0xffffff" width="180" height="20" backgroundalpha="1" wordwrap="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" id="Point02" distance="10.9535" skinid="ht_node" target="" tilt="-2.72" url="{node3}" pan="-184.05" title="Parking"/>
+      <hotspot description="" id="Point01" distance="3.05244" skinid="ht_node" target="" tilt="-14.46" url="{node1}" pan="-315.94" title="Wjazd"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomfov="40" zoomoutpause="1" type="irisround" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control sensitivity="8" rubberband="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" zoomcentercursor="1" hideabout="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelingpitch="0" width="1680" levelbias="0.400" leveltilesize="510" height="1680" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1680" preload="0" height="1680" predecode="0"/>
+      <level width="840" preload="0" height="840" predecode="0"/>
+      <level width="420" preload="1" height="420" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="108.17" projection="4" tilt="5.11" pan="-78.95"/>
+      <flyin fov="118.98" projection="4" tilt="3.82" pan="-77.28"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata description="" tags="Pano2VR7" comment="" latitude="54.054969" datetime="22/06/2024 11:23" nodeid="node4" heading="0" source="" altitude="53.40" copyright="" longitude="14.926403" info="" author="" title="Parking" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" backgroundcolor="0xffffff" width="180" height="20" backgroundalpha="1" wordwrap="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" id="Point01" distance="2.64909" skinid="ht_node" target="" tilt="-8.71" url="{node3}" pan="-75.48" title="Parking"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomfov="40" zoomoutpause="1" type="irisround" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control sensitivity="8" rubberband="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" zoomcentercursor="1" hideabout="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelingpitch="0" width="1680" levelbias="0.400" leveltilesize="510" height="1680" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1680" preload="0" height="1680" predecode="0"/>
+      <level width="840" preload="0" height="840" predecode="0"/>
+      <level width="420" preload="1" height="420" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="108.17" projection="4" tilt="9.53" pan="38.87"/>
+      <flyin fov="118.98" projection="4" tilt="9.79" pan="40.43"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata description="" tags="Pano2VR7" comment="" latitude="54.054958" datetime="22/06/2024 11:23" nodeid="node3" heading="0" source="" altitude="53.40" copyright="" longitude="14.926439" info="" author="" title="Parking" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" backgroundcolor="0xffffff" width="180" height="20" backgroundalpha="1" wordwrap="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" id="Point01" distance="2.64909" skinid="ht_node" target="" tilt="-19.02" url="{node4}" pan="-143.45" title="Parking"/>
+      <hotspot description="" id="Point02" distance="9.26691" skinid="ht_node" target="" tilt="-2.68" url="{node5}" pan="-323.14" title="Apartamen"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomfov="40" zoomoutpause="1" type="irisround" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control sensitivity="8" rubberband="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" zoomcentercursor="1" hideabout="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelingpitch="0" width="1680" levelbias="0.400" leveltilesize="510" height="1680" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1680" preload="0" height="1680" predecode="0"/>
+      <level width="840" preload="0" height="840" predecode="0"/>
+      <level width="420" preload="1" height="420" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="108.17" projection="4" tilt="-4.63" pan="-29.29"/>
+      <flyin fov="108.17" projection="4" tilt="-5.51" pan="-12.27"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata description="" tags="Pano2VR7" comment="" latitude="54.055036" datetime="22/06/2024 11:23" nodeid="node5" heading="0" source="" altitude="53.40" copyright="" longitude="14.926489" info="" author="" title="Apartamen" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" backgroundcolor="0xffffff" width="180" height="20" backgroundalpha="1" wordwrap="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" id="Point01" distance="9.26691" skinid="ht_node" target="" tilt="-6.23" url="{node3}" pan="-89.75" title="Parking"/>
+      <hotspot description="" id="Point02" distance="2.75835" skinid="ht_node" target="" tilt="-4.54" url="{node6}" pan="-36.74" title="Salon"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomfov="40" zoomoutpause="1" type="irisround" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control sensitivity="8" rubberband="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" zoomcentercursor="1" hideabout="0"/>
+  </panorama>
+  <panorama id="node6">
+    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelingpitch="0" width="1680" levelbias="0.400" leveltilesize="510" height="1680" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1680" preload="0" height="1680" predecode="0"/>
+      <level width="840" preload="0" height="840" predecode="0"/>
+      <level width="420" preload="1" height="420" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="108.17" projection="4" tilt="-19.74" pan="162.66"/>
+      <flyin fov="117.02" projection="4" tilt="-17.41" pan="160.61"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata description="" tags="Pano2VR7" comment="" latitude="54.055056" datetime="22/06/2024 11:20" nodeid="node6" heading="0" source="" altitude="52.90" copyright="" longitude="14.926464" info="" author="" title="Salon" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" backgroundcolor="0xffffff" width="180" height="20" backgroundalpha="1" wordwrap="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" id="Point01" distance="9.89635" skinid="ht_node" target="" tilt="-2.67" url="{node8}" pan="-97.05" title="Lazienka"/>
+      <hotspot description="" id="Point02" distance="0.695312" skinid="ht_node" target="" tilt="-8.6" url="{node9}" pan="-154.59" title="Sypialnia"/>
+      <hotspot description="" id="Point03" distance="3.68596" skinid="ht_node" target="" tilt="-5.2" url="{node7}" pan="-212.76" title="Taras"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomfov="40" zoomoutpause="1" type="irisround" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control sensitivity="8" rubberband="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" zoomcentercursor="1" hideabout="0"/>
+  </panorama>
+  <panorama id="node9">
+    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelingpitch="0" width="1680" levelbias="0.400" leveltilesize="510" height="1680" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1680" preload="0" height="1680" predecode="0"/>
+      <level width="840" preload="0" height="840" predecode="0"/>
+      <level width="420" preload="1" height="420" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="100" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata description="" tags="Pano2VR7" comment="" latitude="54.055050" datetime="22/06/2024 11:20" nodeid="node9" heading="0" source="" altitude="53.40" copyright="" longitude="14.926467" info="" author="" title="Sypialnia" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" backgroundcolor="0xffffff" width="180" height="20" backgroundalpha="1" wordwrap="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" id="Point01" distance="3.15935" skinid="ht_node" target="" tilt="-4.08" url="{node7}" pan="-341.43" title="Taras"/>
+      <hotspot description="" id="Point02" distance="0.695312" skinid="ht_node" target="" tilt="-4.09" url="{node6}" pan="-67.21" title="Salon"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomfov="40" zoomoutpause="1" type="irisround" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control sensitivity="8" rubberband="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" zoomcentercursor="1" hideabout="0"/>
+  </panorama>
+  <panorama id="node8">
+    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelingpitch="0" width="1680" levelbias="0.400" leveltilesize="510" height="1680" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1680" preload="0" height="1680" predecode="0"/>
+      <level width="840" preload="0" height="840" predecode="0"/>
+      <level width="420" preload="1" height="420" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="126.58" projection="4" tilt="-27.44" pan="173.91"/>
+      <flyin fov="126.58" projection="4" tilt="-33.6" pan="177.03"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata description="" tags="Pano2VR7" comment="" latitude="54.054967" datetime="22/06/2024 11:24" nodeid="node8" heading="0" source="" altitude="53.30" copyright="" longitude="14.926464" info="" author="" title="Lazienka" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" backgroundcolor="0xffffff" width="180" height="20" backgroundalpha="1" wordwrap="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" id="Point01" distance="9.89635" skinid="ht_node" target="" tilt="-9.11" url="{node6}" pan="-17.46" title="Salon"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomfov="40" zoomoutpause="1" type="irisround" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control sensitivity="8" rubberband="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" zoomcentercursor="1" hideabout="0"/>
+  </panorama>
+  <panorama id="node7">
+    <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelingpitch="0" width="1680" levelbias="0.400" leveltilesize="510" height="1680" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1680" preload="0" height="1680" predecode="0"/>
+      <level width="840" preload="0" height="840" predecode="0"/>
+      <level width="420" preload="1" height="420" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start fov="117.02" projection="4" tilt="-27.8" pan="73.45"/>
+      <flyin fov="117.37" projection="4" tilt="-29.57" pan="61.99"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fov="140" fovstereographic="330" fovfisheye="360" tilt="90" pan="360" scaletofit="1"/>
+    </view>
+    <userdata description="" tags="Pano2VR7" comment="" latitude="54.055025" datetime="22/06/2024 11:21" nodeid="node7" heading="0" source="" altitude="53.40" copyright="" longitude="14.926444" info="" author="" title="Taras" customnodeid=""/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" border="1" backgroundcolor="0xffffff" width="180" height="20" backgroundalpha="1" wordwrap="1" enabled="1" bordercolor="0x000000" textcolor="0x000000" background="1" textalpha="1" borderradius="1"/>
+      <polystyle borderalpha="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot description="" id="Point01" distance="3.15935" skinid="ht_node" target="" tilt="-6.13" url="{node9}" pan="-231.36" title="Sypialnia"/>
+      <hotspot description="" id="Point02" distance="3.68596" skinid="ht_node" target="" tilt="-7.45" url="{node6}" pan="-190.8" title="Salon"/>
+    </hotspots>
+    <media/>
+    <transition softedge="0" blendcolor="0x000000" delay="none" zoomafterinfov="140" zoomafteroutfov="40" enabled="1" zoomfov="40" zoomoutpause="1" type="irisround" blendtime="1" zoomspeed="2" zoomin="0" zoomout="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
+    <control sensitivity="8" rubberband="0" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" simulatemass="1" lockedwheel="0" dblclickfullscreen="0" invertwheel="0" invertcontrol="1" contextfullscreen="1" contextvr="1" lockedkeyboardzoom="0" zoomcentercursor="1" hideabout="0"/>
+  </panorama>
+  <masternode>
+    <userdata description="" tags="" comment="" copyright="" author="" title=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
