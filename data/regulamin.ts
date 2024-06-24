@@ -26,7 +26,7 @@ export const regelwerkRules: Array<Item> = [
   {
     label: 'Poland',
     content: [
-      '<a href="https://storage.googleapis.com/arascor_vision/output/index.html" target="_blank"><img src="https://storage.googleapis.com/arascor_vision/output/preview.jpg" alt="Villa Mare" style="max-width: 100%; height: auto; border-radius: 5px; margin: 10px 0;" /></a>',
+      '<img src="https://storage.googleapis.com/arascor_vision/Projects/Swiierszewo/output/preview.jpg" alt="Villa Mare" style="max-width: 100%; height: auto; border-radius: 5px; margin: 10px 0;" /></a>',
       'TESTTEST',
     ],
   },
