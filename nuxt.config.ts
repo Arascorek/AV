@@ -1,35 +1,24 @@
-import { defineNuxtConfig } from 'nuxt';
-
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  devtools: { enabled: true },
   modules: [
     '@nuxt/image',
-    '@nuxtjs/i18n',
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts'
-  ],
-  i18n: {
-    locales: [
-      { code: 'en', name: 'English', iso: 'en-US', file: 'en.json' },
-      { code: 'pl', name: 'Polski', iso: 'pl-PL', file: 'pl.json' },
-      { code: 'de', name: 'Deutsch', iso: 'de-DE', file: 'de.json' }
-    ],
-    lazy: true,
-    langDir: 'lang',
-    defaultLocale: 'en'
-  },
-  googleFonts: {
-    families: {
-      Oswald: true,
-    }
-  },
-  css: ['~/assets/css/main.scss'],
-  build: {
-    postcss: {
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
+    [
+      '@nuxtjs/google-fonts',
+      {
+        families: {
+          Oswald: true,
+          download: true,
+          inject: true,
+        },
       },
+    ],
+  ],
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
     },
   },
-  plugins: ['~/plugins/i18n.js']
 });
